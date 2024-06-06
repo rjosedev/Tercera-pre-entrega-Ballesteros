@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Mi Proyecto{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Proyecto Django</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/agregar-proveedor/">Agregar proveedor</a></li>
+                <li><a href="/agregar-dispositivo/">Agregar dispositivo</a></li>
+                <li><a href="/agregar-sitio/">Agregar sitio</a></li>
+                <li><a href="/buscar/">Buscar datos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Proyecto Django</p>
+    </footer>
+</body>
+</html>
