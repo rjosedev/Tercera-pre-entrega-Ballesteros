@@ -1,0 +1,12 @@
+{% extends 'AppCoder/padre.html' %}
+
+{% block title %}Lista proveedores - Mi Proyecto{% endblock %}
+
+{% block content %}
+    <h2>Proveedores:</h2>
+    <ul>
+        {% for proveedor in list_proveedores %}
+            <li> {(proveedor.nombre)} - {(proveedor.nombre)} - {(proveedor.nombre)} <li>
+        {% endfor %} 
+    <ul>
+{% endblock %}

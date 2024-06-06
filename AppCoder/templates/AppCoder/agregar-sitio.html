@@ -1,0 +1,12 @@
+{% extends 'AppCoder/padre.html' %}
+
+{% block title %}Agregar sitio - Mi Proyecto{% endblock %}
+
+{% block content %}
+    <h2>Agregar sitio</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Guardar</button>
+    </form>
+{% endblock %}

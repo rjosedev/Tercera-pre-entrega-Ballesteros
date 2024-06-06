@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}3era Pre Entrega{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Mi página web usando framework Django</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/AppCoder/agregar-proveedor/">Agregar proveedor</a></li>
+                <li><a href="/AppCoder/agregar-dispositivo/">Agregar dispositivo</a></li>
+                <li><a href="/AppCoder/agregar-sitio/">Agregar sitio</a></li>
+                <li><a href="/AppCoder/buscar/">Buscar datos</a></li>
+                <li><a href="/AppCoder/listar-proveedores/">Listar proveedores</a></li>
+                <li><a href="/AppCoder/listar-dispositivos/">Listar dispositivos</a></li>
+                <li><a href="/AppCoder/listar-sitios/">Listar sitios</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Mi página web usando framework Django</p>
+    </footer>
+</body>
+</html>
