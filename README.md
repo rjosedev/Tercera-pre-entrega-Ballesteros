@@ -1,6 +1,6 @@
 ## Proyecto
 
-Este es un proyecto web que implementa el framework Django para gestionar Proveedores, Dispositivos y Sitios.
+Este es mi primer proyecto de página web que implementa el framework Django para gestionar diferentes models Proveedores, Dispositivos y Sitios.
 
 ## Funcionalidades
 
